@@ -1,2 +1,2 @@
 # dt_obj_detection
-LRA Object detection
+Duckietown LRA Object detection Exercise
