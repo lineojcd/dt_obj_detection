@@ -3,7 +3,7 @@ Duckietown LRA Object detection Exercise
 
 cloned from https://github.com/duckietown-ethz/object-detection-ex-template
 
-###How to train the model
-'''
+### How to train the model
+bash'''
 python3 train.py
 '''
