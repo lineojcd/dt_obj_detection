@@ -1,2 +1,1 @@
-# duckietown-object-detection
-cloned from https://github.com/duckietown-ethz/object-detection-ex-template
+Unzip **gym_duckietown.zip** or install gym_duckietown packages before run the script.
