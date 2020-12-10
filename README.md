@@ -20,5 +20,19 @@ cd dt_obj_detection/model
 python3 train.py
 ```
 
+### How to build Docker image
+```bash
+cd dt_obj_detection
+docker build -f Dockerfile -t [DOCKER_IMAGE_NAME] .
+```
+
+### How to evaluate your model
+```bash
+cd dt_obj_detection/eval
+make eval-gpu SUB=[DOCKER_IMAGE_NAME]
+or 
+make eval-cpu SUB=[DOCKER_IMAGE_NAME]
+```
+
 ### How to get the pre-trained model
 You can find the pre-trained model from my Dockerhub image: lineojcd/dt_obj_detection:latest
